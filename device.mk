@@ -65,8 +65,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.discovery \
     init.recovery.discovery \
-    init.discovery \
-    ueventd.discovery
+    init.discovery
 
 # Lights
 PRODUCT_PACKAGES += \
