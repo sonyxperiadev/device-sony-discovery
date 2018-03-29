@@ -71,11 +71,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.discovery
 
-# Fingerprint HAL
-PRODUCT_PACKAGES += \
-    fingerprintd \
-    fingerprint.discovery
-
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.discovery
