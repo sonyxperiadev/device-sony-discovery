@@ -67,10 +67,6 @@ PRODUCT_PACKAGES += \
     init.recovery.discovery \
     init.discovery
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.discovery
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.discovery
