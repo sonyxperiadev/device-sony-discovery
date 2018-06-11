@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/discovery/aosp_h3213.mk)
+$(call inherit-product, device/sony/discovery/aosp_h3223.mk)
 
 # DualSim
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -21,7 +21,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \
     ro.telephony.default_network=9,1
 
-PRODUCT_NAME := aosp_h4213
+PRODUCT_NAME := aosp_h4223
 PRODUCT_DEVICE := discovery
 PRODUCT_MODEL := Xperia XA2 Ultra Dual (AOSP)
 PRODUCT_BRAND := Sony
