@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_h3213.mk \
-                     $(LOCAL_DIR)/aosp_h4213.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_h3223.mk \
+                     $(LOCAL_DIR)/aosp_h4223.mk
 

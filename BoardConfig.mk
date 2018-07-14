@@ -15,12 +15,12 @@
 include device/sony/nile/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := unknown
-ifneq (,$(filter %h3213,$(TARGET_PRODUCT)))
-TARGET_BOOTLOADER_BOARD_NAME := H3213
-else ifneq (,$(filter %h4213,$(TARGET_PRODUCT)))
-TARGET_BOOTLOADER_BOARD_NAME := H4213
+ifneq (,$(filter %h3223,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := H3223
+else ifneq (,$(filter %h4223,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := H4223
 else
-TARGET_BOOTLOADER_BOARD_NAME := H3213
+TARGET_BOOTLOADER_BOARD_NAME := H3223
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
 endif
 

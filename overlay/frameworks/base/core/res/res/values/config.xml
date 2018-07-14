@@ -92,5 +92,5 @@
     <bool name="config_supportDoubleTapWake">false</bool>
 
     <!-- MMS user agent prolfile url -->
-    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/H3213R5001.xml</string>
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/H3223R5001.xml</string>
 </resources>
