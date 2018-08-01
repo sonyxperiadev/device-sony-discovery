@@ -19,7 +19,7 @@ $(call inherit-product, device/sony/discovery/aosp_h3213.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.multisim.config=dsds \
     persist.radio.multisim.config=dsds \
-    ro.telephony.default_network=9,1
+    ro.telephony.default_network=9,0
 
 PRODUCT_NAME := aosp_h4213
 PRODUCT_DEVICE := discovery
