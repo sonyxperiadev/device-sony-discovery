@@ -12,14 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, device/sony/discovery/aosp_h3213.mk)
+
 # DualSim
+BOARD_IS_DSDS := true
+
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.multisim.config=dsds \
     persist.radio.multisim.config=dsds \
     ro.telephony.default_network=9,0
-
-# Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/discovery/aosp_h3213.mk)
 
 PRODUCT_NAME := aosp_h4213
 PRODUCT_DEVICE := discovery
