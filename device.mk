@@ -73,10 +73,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.discovery
 
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.discovery
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
