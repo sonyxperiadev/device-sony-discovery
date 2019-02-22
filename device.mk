@@ -68,10 +68,6 @@ PRODUCT_PACKAGES += \
     init.recovery.discovery \
     init.discovery
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.discovery
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
